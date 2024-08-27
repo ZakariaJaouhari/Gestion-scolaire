@@ -137,6 +137,7 @@
                     </div>
                     
                 </div>
+                
                 <div class="flex justify-end relative right-32">
                     <a href="{{ route('notesF') }}" class="mr-5 mt-2 font-medium">Réinitialiser</a>
                     <button type="submit"
@@ -233,7 +234,7 @@
                         <input type="button" id="saveButton" value="Enregistrer"
                             class="rounded-md relative left-40 px-3 py-2 text-sm font-semibold text-white shadow-sm  bg-emerald-600 transition ease-in-out delay-10  hover:-translate-y-1 hover:scale-110 duration-300  focus-within:outline-none focus-within:ring-2 focus-within:ring-white focus-within:ring-offset-2 hover:bg-white hover:text-emerald-600">
                     </div>
-                    
+
                     <div id="confirm" class="hidden border rounded-lg shadow relative max-w-sm">
                         <div class="flex justify-end p-2">
                             <button type="button" id="removeconfirm2"

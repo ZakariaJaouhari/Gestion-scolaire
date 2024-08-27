@@ -101,6 +101,7 @@
                         {{ auth()->guard('formateur')->user()->prenom }}</span>
                 </h1>
             </div>
+            
             <h1 class=" font-extrabold relative text-5xl left-72 bottom-44 mb-24" style="font-family: 'Apple Chancery';">Les notes</h1>
             <p class="relative left-80 bottom-60 mb-16">Utilisez le filtre pour effectuer une recherche plus rapide.</p>
             <form action="{{ route('filter.notes') }}" method="post"  class=" bottom-64 ml-96 left-44 relative  min-w-[950px] mb-20">
@@ -122,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="relative h-11 w-full max-w-[300px]">
                         <label for="sexe" class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-sm font-normal leading-tight text-gray-900 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-emerald-600 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-blue-gray-500 peer-focus:text-sm peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-emerald-600 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
                             Sélectionner un module

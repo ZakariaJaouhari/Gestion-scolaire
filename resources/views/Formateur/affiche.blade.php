@@ -245,6 +245,7 @@
                             </button>
                         </div>
 
+                        
                         <div class="p-6 pt-0 text-center">
                             <svg class="w-20 h-20 text-red-600 mx-auto" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
